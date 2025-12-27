@@ -1,67 +1,66 @@
-# 🎵 Artist Booking Platform
+# 🎵 Plataforma de Contratação de Artistas
 
-A modern web application for booking artists for private events. Built with React, Vite, and React Router.
+Aplicação web moderna para contratação de artistas para eventos particulares. Desenvolvida com React, Vite e React Router, com design inspirado no Spotify.
 
-## 📋 Features
+## 📋 Funcionalidades
 
-- **Artist Search**: Search for artists and bands with an intuitive interface
-- **Trending Artists**: View popular artists when no search is performed
-- **Booking System**: Complete booking form with validation
-- **Bookings Management**: View and manage all your bookings
-- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
-- **Modern UI/UX**: Smooth animations and transitions
-- **LocalStorage Persistence**: Bookings are saved locally
+- **Busca de Artistas**: Interface intuitiva para buscar artistas e bandas brasileiras
+- **Artistas em Tendência**: Visualização de artistas populares quando não há busca ativa
+- **Sistema de Contratação**: Formulário completo com validação de campos obrigatórios
+- **Gerenciamento de Contratações**: Visualize e gerencie todas as suas contratações
+- **Design Responsivo**: Funciona perfeitamente em desktop, tablet e mobile
+- **Interface Moderna**: Design inspirado no Spotify com animações suaves
+- **Persistência Local**: Dados salvos no LocalStorage do navegador
 
-## 🚀 Getting Started
+## 🚀 Como Executar
 
-### Prerequisites
+### Pré-requisitos
 
-- Node.js (version 14 or higher)
-- npm (comes with Node.js)
+- Node.js (versão 14 ou superior)
+- npm (vem junto com o Node.js)
 
-### Installation
+### Instalação
 
-1. Clone the repository:
+1. Clone o repositório:
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/rhiancastro05-tech/artist-booking-enterscience.git
 cd artist-booking
 ```
 
-2. Install dependencies:
+2. Instale as dependências:
 ```bash
 npm install
 ```
 
-3. Start the development server:
+3. Inicie o servidor de desenvolvimento:
 ```bash
 npm run dev
 ```
 
-4. Open your browser and navigate to:
+4. Abra seu navegador e acesse:
 ```
 http://localhost:5173
 ```
 
-## 🏗️ Project Structure
-
+## 🏗️ Estrutura do Projeto
 ```
 artist-booking/
 ├── src/
-│   ├── components/          # Reusable components
+│   ├── components/          # Componentes reutilizáveis
 │   │   ├── SearchBar.jsx
 │   │   ├── ArtistCard.jsx
 │   │   ├── ArtistGrid.jsx
 │   │   └── BookingForm.jsx
-│   ├── pages/               # Page components
+│   ├── pages/               # Componentes de página
 │   │   ├── HomePage.jsx
 │   │   ├── BookingPage.jsx
 │   │   ├── SuccessPage.jsx
 │   │   └── BookingsListPage.jsx
-│   ├── services/            # API services
+│   ├── services/            # Serviços de API
 │   │   └── spotifyService.js
-│   ├── utils/               # Utility functions
+│   ├── utils/               # Funções utilitárias
 │   │   └── storage.js
-│   ├── styles/              # CSS files
+│   ├── styles/              # Arquivos CSS
 │   │   ├── SearchBar.css
 │   │   ├── ArtistCard.css
 │   │   ├── ArtistGrid.css
@@ -70,110 +69,127 @@ artist-booking/
 │   │   ├── BookingPage.css
 │   │   ├── SuccessPage.css
 │   │   └── BookingsListPage.css
-│   ├── App.jsx              # Main app component
-│   ├── App.css              # Global styles
-│   └── main.jsx             # Entry point
-├── public/                  # Static assets
-├── index.html              # HTML template
-├── package.json            # Dependencies
-├── vite.config.js          # Vite configuration
-└── README.md               # This file
+│   ├── App.jsx              # Componente principal
+│   ├── App.css              # Estilos globais
+│   └── main.jsx             # Ponto de entrada
+├── public/                  # Arquivos estáticos
+│   └── artists/             # Imagens dos artistas
+├── index.html              # Template HTML
+├── package.json            # Dependências do projeto
+├── vite.config.js          # Configuração do Vite
+└── README.md               # Este arquivo
 ```
 
-## 💻 Technologies Used
+## 💻 Tecnologias Utilizadas
 
-- **React 18**: UI library
-- **Vite**: Build tool and development server
-- **React Router DOM**: Client-side routing
-- **Lucide React**: Icon library
-- **LocalStorage**: Data persistence
+- **React 18**: Biblioteca para construção de interfaces
+- **Vite**: Build tool e servidor de desenvolvimento
+- **React Router DOM**: Roteamento client-side
+- **Lucide React**: Biblioteca de ícones
+- **LocalStorage**: Persistência de dados local
 
-## 🎨 Features Implemented
+## 🎨 Funcionalidades Implementadas
 
-### Required Features
-- ✅ Artist search functionality
-- ✅ Artist grid/list display
-- ✅ Booking form with all required fields
-- ✅ Form validation (required fields)
-- ✅ Success page after booking
-- ✅ View previous bookings
-- ✅ LocalStorage for data persistence
+### Requisitos Obrigatórios
+- ✅ Busca de artistas funcional
+- ✅ Exibição em grade/listagem
+- ✅ Formulário de contratação com validação
+- ✅ Campos obrigatórios: Nome, Artista Selecionado, Data do Evento, Endereço
+- ✅ Campo opcional: Cachê
+- ✅ Tela de sucesso após submissão
+- ✅ Visualização de contratações anteriores
+- ✅ Persistência com LocalStorage
 
-### Extra Features
-- ✅ Trending artists on homepage (when no search)
-- ✅ CSS animations and transitions
-- ✅ Loading states with spinner
-- ✅ Empty states with helpful messages
-- ✅ Responsive design for all screen sizes
-- ✅ Visual feedback for user interactions
-- ✅ Hover effects on cards and buttons
-- ✅ Form error messages with shake animation
+### Funcionalidades Extras
+- ✅ Artistas em tendência na página inicial
+- ✅ Animações e transições CSS
+- ✅ Loading states com spinner
+- ✅ Empty states com mensagens úteis
+- ✅ Design responsivo mobile-first
+- ✅ Feedback visual para interações do usuário
+- ✅ Efeitos de hover em cards e botões
+- ✅ Mensagens de erro com animação
+- ✅ Design inspirado no Spotify (fundo escuro, verde #1db954)
+- ✅ Interface em português brasileiro
+- ✅ Formatação de moeda em Real (R$)
+- ✅ Formatação de datas em português
+- ✅ Catálogo com 20+ artistas brasileiros
 
-## 📱 Pages
+## 📱 Páginas
 
-### 1. Home Page
-- Search bar for finding artists
-- Trending artists display (default)
-- Grid of artist cards with hover effects
-- Navigation to bookings
+### 1. Página Inicial (Home)
+- Barra de busca estilo Spotify
+- Artistas em tendência (exibição padrão)
+- Grade de cards de artistas com hover effects
+- Navegação para "Minhas Contratações"
 
-### 2. Booking Page
-- Artist preview
-- Complete booking form
-- Field validation
-- Cancel and submit actions
+### 2. Página de Contratação (Booking)
+- Preview do artista selecionado
+- Formulário completo de contratação
+- Validação de campos obrigatórios
+- Opções de cancelar e confirmar
 
-### 3. Success Page
-- Confirmation message
-- Navigation options
-- Action buttons to home or bookings list
+### 3. Página de Sucesso (Success)
+- Mensagem de confirmação
+- Opções de navegação
+- Botões para voltar à home ou ver contratações
 
-### 4. Bookings List Page
-- View all submitted bookings
-- Artist images and details
-- Event information display
-- Clear all bookings option
+### 4. Página de Contratações (Bookings List)
+- Listagem de todas as contratações
+- Informações detalhadas de cada contratação
+- Opção de limpar todas as contratações
+- Estado vazio com call-to-action
 
-## 🎯 Usage
+## 🎯 Como Usar
 
-1. **Search for Artists**: Use the search bar to find artists by name or genre
-2. **Select Artist**: Click on any artist card to proceed with booking
-3. **Fill Booking Form**: Complete all required fields (marked with *)
-4. **Submit**: Click "Confirm Booking" to save
-5. **View Bookings**: Access "My Bookings" from the header to see all bookings
+1. **Buscar Artistas**: Use a barra de busca para encontrar artistas por nome ou gênero
+2. **Selecionar Artista**: Clique em qualquer card de artista para prosseguir
+3. **Preencher Formulário**: Complete os campos obrigatórios marcados com *
+4. **Confirmar**: Clique em "Confirmar Contratação" para salvar
+5. **Visualizar**: Acesse "Minhas Contratações" no header para ver todas as contratações
 
-## 🔧 Development
+## 🔧 Scripts Disponíveis
 
-### Available Scripts
+- `npm run dev` - Inicia o servidor de desenvolvimento
+- `npm run build` - Cria build de produção
+- `npm run preview` - Visualiza o build de produção
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
+## 📝 Observações Técnicas
 
-### Code Quality
+### Qualidade do Código
+- **Código Semântico**: Uso adequado de tags HTML5 semânticas
+- **Componentização**: Componentes modulares e reutilizáveis
+- **Código Limpo**: Organizado e bem estruturado
+- **Comentários em Inglês**: Documentação clara em todos os componentes
+- **Boas Práticas**: Seguindo padrões do React e JavaScript moderno
 
-- **Semantic HTML**: Proper use of HTML5 semantic tags
-- **Component-based**: Modular and reusable components
-- **Clean Code**: Well-commented and organized
-- **Responsive**: Mobile-first approach
-- **Accessible**: ARIA labels and semantic markup
+### Dados dos Artistas
+- A aplicação utiliza dados mock de artistas brasileiros famosos
+- As imagens são URLs de placeholder (podem ser substituídas por imagens reais)
+- A busca filtra por nome do artista ou gênero musical
+- Catálogo inclui: Anitta, Gilberto Gil, Caetano Veloso, Ludmilla, Ivete Sangalo, entre outros
 
-## 📝 Notes
+### Persistência
+- Todos os dados são salvos no LocalStorage do navegador
+- Os dados persistem entre sessões
+- Não há necessidade de backend ou banco de dados
 
-- The application uses mock artist data as the Spotify API requires authentication
-- All bookings are stored in localStorage and persist across sessions
-- The form includes client-side validation for all required fields
-- Date picker is restricted to future dates only
+## 🎨 Design
 
-## 🤝 Contributing
+O design foi inspirado no Spotify, utilizando:
+- **Cores**: Fundo escuro (#121212), verde Spotify (#1db954)
+- **Tipografia**: Fontes modernas e legíveis
+- **Componentes**: Botões pill-shaped, cards com hover, animações suaves
+- **Responsividade**: Layout adaptativo para todos os tamanhos de tela
 
-This is a test project for an internship position. If you have suggestions or find issues, please feel free to reach out.
+## 🤝 Desenvolvido Para
 
-## 📧 Contact
+Teste técnico para vaga de estágio de desenvolvedor na **EnterScience**
 
-For questions about this project, contact: **vagas@enterscience.com.br**
+## 📧 Contato
+
+Para dúvidas sobre este projeto, entre em contato através de: **vagas@enterscience.com.br**
 
 ---
 
-**Developed with ❤️ for EnterScience Internship Application**
+**Desenvolvido por Rhian Castro**
