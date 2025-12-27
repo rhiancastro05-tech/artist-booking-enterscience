@@ -109,10 +109,11 @@ artist-booking/
 - ✅ Feedback visual para interações do usuário
 - ✅ Efeitos de hover em cards e botões
 - ✅ Mensagens de erro com animação
-- ✅ Design inspirado no Spotify
+- ✅ Design inspirado no Spotify (fundo escuro, verde #1db954)
 - ✅ Interface em português brasileiro
 - ✅ Formatação de moeda em Real (R$)
 - ✅ Formatação de datas em português
+- ✅ Catálogo com 20+ artistas brasileiros
 
 ## 📱 Páginas
 
@@ -164,13 +165,22 @@ artist-booking/
 
 ### Dados dos Artistas
 - A aplicação utiliza dados mock de artistas brasileiros famosos
-- As imagens são URLs de placeholder
+- As imagens são URLs de placeholder (podem ser substituídas por imagens reais)
 - A busca filtra por nome do artista ou gênero musical
+- Catálogo inclui: Anitta, Gilberto Gil, Caetano Veloso, Ludmilla, Ivete Sangalo, entre outros
 
 ### Persistência
 - Todos os dados são salvos no LocalStorage do navegador
 - Os dados persistem entre sessões
 - Não há necessidade de backend ou banco de dados
+
+## 🎨 Design
+
+O design foi inspirado no Spotify, utilizando:
+- **Cores**: Fundo escuro (#121212), verde Spotify (#1db954)
+- **Tipografia**: Fontes modernas e legíveis
+- **Componentes**: Botões pill-shaped, cards com hover, animações suaves
+- **Responsividade**: Layout adaptativo para todos os tamanhos de tela
 
 ## 🤝 Desenvolvido Para
 
