@@ -182,4 +182,4 @@ Para dúvidas sobre este projeto, entre em contato através de: **vagas@entersci
 
 ---
 
-**Desenvolvido com ❤️ por Rhian Castro**
+**Desenvolvido por Rhian Castro**
